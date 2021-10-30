@@ -171,7 +171,7 @@ function Add(){
     var MarksElement  = document.createElement('td');
     var MarksInput = document.createElement('input');
     MarksInput.setAttribute('type','text');
-    MarksInput.setAttribute('Placeholder','Stream');
+    MarksInput.setAttribute('Placeholder','Marks');
     MarksInput.setAttribute('id','input4');
     MarksElement.appendChild(MarksInput);
 
@@ -248,7 +248,7 @@ function Edit( i ){
     var MarksInput = document.createElement('input');
     MarksInput.setAttribute('type','text');
     MarksInput.setAttribute('value',Data[i].Marks);
-    MarksInput.setAttribute('Placeholder','Stream');
+    MarksInput.setAttribute('Placeholder','Marks');
     MarksInput.setAttribute('id','input4');
     MarksElement.appendChild(MarksInput);
 
